@@ -1,0 +1,6 @@
+repo: git@github.com:juju-solutions/layer-apache-bigtop-hive.git
+includes:
+  - 'layer:apache-bigtop-gateway'
+options:
+  apache-bigtop-base:
+    bigtop_component_list: 'hive'
